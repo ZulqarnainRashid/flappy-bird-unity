@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Logic
   - Bird
+  - Wing
   layers:
   - Default
   - TransparentFX
