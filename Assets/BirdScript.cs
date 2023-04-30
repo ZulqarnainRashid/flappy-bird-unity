@@ -27,14 +27,14 @@ public class BirdScript : MonoBehaviour
         }
         if (transform.position.y > 16 || transform.position.y < -16)
         {
-            logic.gameOver();
+            logic.GameOver();
             birdIsAlive = false;
         }
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        logic.gameOver();
+        logic.GameOver();
         birdIsAlive = false;
     }
 }
